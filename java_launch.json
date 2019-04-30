@@ -1,0 +1,16 @@
+{
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Java: CodeLens (Launch)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "args": "",
+            "mainClass": "miniChatServer.Main",     // your main class name
+            "projectName": "miniChatServer"         // your project name
+        }
+    ]
+}

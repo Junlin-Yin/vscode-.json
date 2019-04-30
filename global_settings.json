@@ -1,0 +1,38 @@
+{        
+    // python
+    "python.autoComplete.extraPaths": [
+        "E:/Anaconda/envs/tensorflow/",
+        "E:/Anaconda/envs/tensorflow/Lib",
+        "E:/Anaconda/envs/tensorflow/site-packages",
+        "E:/Anaconda/envs/tensorflow/DLLs",
+        "E:/Anaconda/envs/tensorflow/Lib/site-packages"
+    ],
+    "python.linting.flake8Enabled": true,   //pip install flake8
+    "python.formatting.provider": "yapf",   //pip install yapf
+    "editor.fontSize": 14,
+    "python.autoComplete.addBrackets": true,
+    "python.jediEnabled": false,
+    "python.terminal.activateEnvironment": true,
+
+    // C/C++
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.errorSquiggles": "Disabled",
+
+    // Java
+    "java.home": "C:/Program Files/Java/jdk-11.0.3.7",
+    "files.exclude": {
+        "**/.classpath": false,
+        "**/.project": false,
+        "**/.settings": false,
+        "**/.factorypath": false
+    },
+
+    // IntelliSense, etc.
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "editor.renderWhitespace": "none",
+    "window.zoomLevel": 1,
+    "code-runner.runInTerminal": true,
+    "terminal.integrated.rendererType": "dom",
+}
